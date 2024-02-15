@@ -25,5 +25,7 @@ while True:
 		print('Please type a number larger than 0 next time.')
 		continue
 
-
-	printf('after continue')
+	if user_guess == random_number:
+		print("Yout got it!")
+	else:
+		print("You got it wrong!")
